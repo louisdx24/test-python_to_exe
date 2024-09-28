@@ -13,3 +13,9 @@ with open(file_path, mode='w', newline='') as file:
     writer.writerow(['hello'])
 
 print(f"CSV file created at: {file_path}")
+
+# In terminal install pyinstaller:
+# pip install pyinstaller
+
+# Successfully installed then input:
+# pyinstaller --onefile <your_script.py>
